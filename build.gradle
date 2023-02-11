@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+}
+
+group 'com.github.poink0411'
+version '1.0-SNAPSHOT'
+
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+sourceCompatibility = 15
+
+dependencies{
+    implementation 'org.javacord:javacord:3.7.0'
+    implementation 'org.jsoup:jsoup:1.13.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+targetCompatibility = JavaVersion.VERSION_15
