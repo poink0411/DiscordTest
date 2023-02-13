@@ -21,6 +21,7 @@ sourceCompatibility = 15
 dependencies{
     implementation 'org.javacord:javacord:3.7.0'
     implementation 'org.jsoup:jsoup:1.13.1'
+    implementation 'com.vdurmont:emoji-java:5.1.1'
 }
 
 test {
